@@ -38,4 +38,9 @@ The contenct should be organized in one file that will be submitted to ChatGPT w
 
 - Create a web page in HTML and CSS with the text below, making it look like an ebook.
 
+Creating the cover:
+
+I used ChatGPT to make a simple cover that could be way more alaborated using image generators, but for the sake of this projext, I'll stick with plane HTML + CSS.
+
+- I'm going to print this HTML page to PDF and use it as a book cover. You need to create a cover art using CSS and HTML. It's not a website. It's an actual book cover, and it should be in the format of an A4 page, including the title [title], the author [author], and other typical cover elements. Also, please add some CSS art to the cover, something that enhances its visual appeal. Remember that I will print an A4 page to PDF afterward.
 
