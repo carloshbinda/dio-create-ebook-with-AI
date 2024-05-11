@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cover: Unlocking the World</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .cover {
+        width: 210mm; /* Width of A4 paper */
+        height: 297mm; /* Height of A4 paper */
+        background-color: #f0f0f0;
+        padding: 50px;
+        box-sizing: border-box;
+        text-align: center;
+        position: relative;
+    }
+    .title {
+        font-size: 36px;
+        font-weight: bold;
+        color: #4CAF50;
+        margin-bottom: 20px;
+    }
+    .description {
+        font-size: 18px;
+        color: #555555;
+        margin-bottom: 40px;
+    }
+    .author {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 16px;
+        color: #888888;
+    }
+    .cover-shapes {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .circle {
+        position: absolute;
+        background-color: #4CAF50;
+        border-radius: 50%;
+    }
+    .circle-1 {
+        width: 200px;
+        height: 200px;
+        top: 50px;
+        left: 50px;
+    }
+    .circle-2 {
+        width: 150px;
+        height: 150px;
+        top: 200px;
+        right: 100px;
+    }
+</style>
+</head>
+<body>
+
+<div class="cover">
+    <div class="cover-shapes">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+    </div>
+    <div class="title">Unlocking the World</div>
+    <div class="description">A Guide to English Mastering Through Shadowing</div>
+    <div class="author">Carlos Henrique Binda</div>
+</div>
+
+</body>
+</html>
